@@ -24,19 +24,19 @@ function readData() {
         return {
             links: parsedData.links || [
                 {
-                    name: "Evan's Space",
-                    url: "https://www.evan.xin",
+                    name: "Q-Nav",
+                    url: "https://github.com/wang4386/q-nav",
                     category: "博客",
-                    description: "EvanNav Designer",
+                    description: "Q-Nav Designer",
                     status: "normal",
-                    logo: "https://www.evan.xin/logo.png"
+                    logo: "https://github.com/wang4386/q-nav/logo.png"
                 }
             ],
             categories: parsedData.categories || ["博客", "工具", "收藏"],
             settings: parsedData.settings || {
                 websiteLogo: '',
                 websiteTitle: 'My Website Favorites',
-                footerInfo: '© EvanNav'
+                footerInfo: '© Q-Nav'
             },
             adminPassword: parsedData.adminPassword || 'admin123456'
         };
@@ -45,19 +45,19 @@ function readData() {
         return {
             links: [
                 {
-                    name: "Evan's Space",
-                    url: "https://www.evan.xin",
+                    name: "Q-Nav",
+                    url: "https://github.com/wang4386/q-nav",
                     category: "博客",
-                    description: "EvanNav Designer",
+                    description: "Q-Nav Designer",
                     status: "normal",
-                    logo: "https://www.evan.xin/logo.png"
+                    logo: "https://github.com/wang4386/q-nav/logo.png"
                 }
             ],
             categories: ["博客", "工具", "收藏"],
             settings: {
                 websiteLogo: '',
                 websiteTitle: 'My Website Favorites',
-                footerInfo: '© EvanNav'
+                footerInfo: '© Q-Nav'
             },
             adminPassword: 'admin123456'
         };

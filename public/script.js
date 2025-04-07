@@ -3,7 +3,7 @@ let categories = [];
 let settings = {
     websiteLogo: '',
     websiteTitle: 'My Website Favorites',
-    footerInfo: '© EvanNav'
+    footerInfo: '© Q-Nav'
 };
 let currentPage = 1;
 const itemsPerPage = 8;
@@ -282,13 +282,13 @@ function renderCategories() {
 
 // 加载页脚信息
 function loadFooterInfo() {
-    document.getElementById('footer-text').value = settings.footerInfo.replace('© EvanNav', '');
-    document.getElementById('footer-info').innerHTML = `<p><a href="https://evan.xin" id="cvp79407dlc9i3dt24jg" style="text-decoration: none; color: inherit;">© EvanNav ${settings.footerInfo.replace('© EvanNav', '')}</a></p>`;
+    document.getElementById('footer-text').value = settings.footerInfo.replace('© Q-Nav', '');
+    document.getElementById('footer-info').innerHTML = `<p><a href="https://github.com/wang4386/q-nav" id="cvp79407dlc9i3dt24jg" style="text-decoration: none; color: inherit;">© Q-Nav ${settings.footerInfo.replace('© Q-Nav', '')}</a></p>`;
 }
 
 // 加载后台页脚信息
 function loadAdminFooterInfo() {
-    document.getElementById('admin-footer-info').innerHTML = `<p><a href="https://evan.xin" id="cvp79407dlc9i3dt24jg" style="text-decoration: none; color: inherit;">© EvanNav ${settings.footerInfo.replace('© EvanNav', '')}</a></p>`;
+    document.getElementById('admin-footer-info').innerHTML = `<p><a href="https://github.com/wang4386/q-nav" id="cvp79407dlc9i3dt24jg" style="text-decoration: none; color: inherit;">© Q-Nav ${settings.footerInfo.replace('© Q-Nav', '')}</a></p>`;
 }
 
 // 加载网站设置
@@ -341,7 +341,7 @@ function loadWebsiteTitle() {
 // 保存页脚信息
 async function saveFooterInfo() {
     const footerInfo = document.getElementById('footer-text').value;
-    settings.footerInfo = '© EvanNav' + (footerInfo ? ' ' + footerInfo : '');
+    settings.footerInfo = '© Q-Nav' + (footerInfo ? ' ' + footerInfo : '');
     try {
         await fetch('/api/settings', {
             method: 'PUT',
