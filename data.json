@@ -1,0 +1,43 @@
+{
+  "links": [
+  {
+    "name": "倾城于你",
+    "url": "https://qninq.cn",
+    "category": "博客",
+    "description": "",
+    "status": "normal",
+    "logo": "https://qninq.cn/favicon.ico"
+  },
+  {
+    "name": "大佬论坛",
+    "url": "https://www.dalao.net/",
+    "category": "论坛",
+    "description": "",
+    "status": "normal",
+    "logo": "https://icon.qninq.cn/favicon/www.dalao.net?larger=true"
+  },
+  {
+    "name": "NodeSeek",
+    "url": "https://www.nodeseek.com/",
+    "category": "论坛",
+    "description": "",
+    "status": "normal",
+    "logo": "https://icon.qninq.cn/favicon/www.nodeseek.com?larger=true"
+  },
+  {
+    "name": "LinuxDo",
+    "url": "https://linux.do/",
+    "category": "论坛",
+    "description": "",
+    "status": "normal",
+    "logo": "https://icon.qninq.cn/favicon/linux.do?larger=true"
+  }
+  ],
+  "categories": ["博客", "工具", "论坛"],
+  "settings": {
+    "websiteLogo": "",
+    "websiteTitle": "My Website Favorites",
+    "footerInfo": "© 青柠"
+  },
+  "adminPassword": "admin123456"
+}
