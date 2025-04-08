@@ -6,9 +6,12 @@
 }
 
 body {
-    font-family: 'Inter', sans-serif;
+    font-family: 'LXGW WenKai', sans-serif;
     line-height: 1.6;
-    background: #f9fafb;
+    background-image: url('https://img.qninq.cn/ota/tourist/QwZfi7OZ.webp');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
     color: #374151;
     min-height: 100vh;
     display: flex;
