@@ -8,7 +8,7 @@
 body {
     font-family: 'LXGW WenKai', sans-serif;
     line-height: 1.6;
-    background-image: url('https://img.qninq.cn/ota/tourist/QwZfi7OZ.webp');
+    background-image: url('https://v2.xxapi.cn/api/wallpaper?return=302');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -17,6 +17,9 @@ body {
     display: flex;
     flex-direction: column;
     font-size: 0.9rem; 
+}
+body {
+    overflow-y: overlay; /* 使用 overlay 替代传统滚动条 */
 }
 
 /* 前台样式 */
