@@ -16,11 +16,10 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    font-size: 0.9rem; 
+    font-size: 0.9rem;
+    overflow-y: scroll; /* 强制显示滚动条，避免布局偏移 */
 }
-body {
-    overflow-y: overlay; /* 使用 overlay 替代传统滚动条 */
-}
+
 
 /* 前台样式 */
 .frontend {
